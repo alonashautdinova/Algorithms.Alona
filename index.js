@@ -26,9 +26,38 @@
 
 // const ages = people.
 
-let arr = [1, 2, 3, 4, 5];
-let m =
-  arr.reduce(function (sum) {
-    return (sum += sum - 1);
-  }) / arr.length;
-console.log(m);
+// let arr = [1, 2, 3, 4, 5];
+// let m =
+//   arr.reduce(function (sum) {
+//     return (sum += sum - 1);
+//   }) / arr.length;
+// console.log(m);
+
+
+// Factory function 
+// function createCircle(radius) {
+//   return {
+//     radius,
+//     draw() {
+//       console.log("draw");
+//     },
+//   };
+// }
+
+// const myCircle = createCircle(1)
+
+
+// // Constructor Function
+// function Circle(radius) {
+//   this.radius = radius;
+//   this.draw = function () {
+//     console.log("draw");
+//   };
+// }
+
+// const circle = new Circle(1);
+
+function largestOfFour(arr) {
+  let newarr = [];
+  newarr.push(i.reduce(function))
+}

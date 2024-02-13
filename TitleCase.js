@@ -5,15 +5,16 @@
 // For this algorithm, you can use the split() method.
 
 function titleCase(str) {
-  let arr = str.split(" ");
+  //declare the function with a string as a parameter
+  let arr = str.split(" "); //create an array
   for (let i = 0; i < arr.length; i++) {
-    let word = arr[i].toLowerCase();
-    word = word[0].toUpperCase() + word.slice(1);
-    arr[i] = word;
+    //for loop to iterate through the array
+    let word = arr[i].toLowerCase(); //create a variable and convert it to the lower case
+    word = word[0].toUpperCase() + word.slice(1); // capitilize the first letter of the word
+    arr[i] = word; //update the array woth elemets with new word
   }
-  return arr.join(" ");
+  return arr.join(" "); // return joined array
 }
 
-console.log(titleCase("I'm a little tea pot")); // should return a string.
 console.log(titleCase("I'm a little tea pot")); // should return "I'm A Little Tea Pot".
 console.log(titleCase("sHoRt AnD sToUt")); // should return "Short And Stout".
